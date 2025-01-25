@@ -86,9 +86,9 @@ time sentiment predictions.
 
 Training the Model:
 
-Use the provided dataset and code to train the LSTM model. The code will process the data, train the model, and save it as sentimental_model.h5 along 
+Use the provided dataset and code to train the LSTM model. The code will process the data, train the model, and save it as
 
-with the tokenizer (tokenizer.pickle).
+sentimental_model.h5 along with the tokenizer (tokenizer.pickle).
 
 ## Deploying with Streamlit:
 
