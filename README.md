@@ -68,7 +68,9 @@ Dense Layers and a Dropout Layer are added for classification and to prevent ove
 
 4. Model Training
    
-The model is trained using the training data and validated with a validation split to track performance. The trained model is then saved as a .h5 file.
+The model is trained using the training data and validated with a validation split to track performance.
+
+The trained model is then saved as a .h5 file.
 
 5. Saving the Model & Tokenizer
    
@@ -80,7 +82,7 @@ The trained model and tokenizer are loaded into a Streamlit app, which provides 
 
 time sentiment predictions.
 
-How to Use
+## How to Use
 
 Training the Model:
 
@@ -88,11 +90,11 @@ Use the provided dataset and code to train the LSTM model. The code will process
 
 with the tokenizer (tokenizer.pickle).
 
-Deploying with Streamlit:
+## Deploying with Streamlit:
 
-Once the model is trained, you can deploy it for real-time predictions using Streamlit. The web interface allows users to input tweet text and predict 
+Once the model is trained, you can deploy it for real-time predictions using Streamlit. 
 
-its sentiment.
+The web interface allows users to input tweet text and predict its sentiment.
 
 To run the Streamlit app, execute the following command in your terminal:
 ```
