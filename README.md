@@ -1,8 +1,10 @@
 # Twitter-Sentiment-Analysis-LSTM
 
-This repository contains code for building, training, and deploying a sentiment analysis model using Long Short-Term Memory (LSTM) networks. The model 
+This repository contains code for building, training, and deploying a sentiment analysis model using
 
-predicts sentiment based on tweets, classifying them into five categories: 
+Long Short-Term Memory (LSTM) networks. The model predicts sentiment based on tweets, 
+
+classifying them into five categories: 
 
 **0 (negative)**,
 **1 (neutral)**,
@@ -52,9 +54,9 @@ Lemmatizing and stemming the words to ensure uniformity.
 
 2. Tokenization & Padding
    
-The text data is tokenized using Keras's Tokenizer class and then padded to ensure that all sequences are of the same length. This step converts text 
+The text data is tokenized using Keras's Tokenizer class and then padded to ensure that all sequences are of the same length. 
 
-into numerical sequences that the model can understand.
+This step converts text into numerical sequences that the model can understand.
 
 3. Model Architecture
    
@@ -78,9 +80,9 @@ The model and tokenizer are saved after training. This allows the model to be re
 
 6. Streamlit Deployment
 
-The trained model and tokenizer are loaded into a Streamlit app, which provides an interactive interface for users to enter tweet text and get real-
+The trained model and tokenizer are loaded into a Streamlit app, which provides an interactive interface for users
 
-time sentiment predictions.
+to enter tweet text and get real-time sentiment predictions.
 
 ## How to Use
 
